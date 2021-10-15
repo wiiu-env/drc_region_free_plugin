@@ -18,14 +18,9 @@ DECL_FUNCTION(uint32_t, CCRSysDRCFWUpdate, uint32_t u1) {
     return 0;
 }
 
-DECL_FUNCTION(uint32_t, CCRSysRegionCheck, uint32_t u1) {
-    return 0;
-}
-
 DECL_FUNCTION(uint32_t, CCRSysNeedsDRCFWUpdate, uint32_t u1, uint32_t u2) {
     return 0;
 }
 
 WUPS_MUST_REPLACE(CCRSysNeedsDRCFWUpdate, WUPS_LOADER_LIBRARY_NN_CCR, CCRSysNeedsDRCFWUpdate);
-WUPS_MUST_REPLACE(CCRSysRegionCheck, WUPS_LOADER_LIBRARY_NN_CCR, CCRSysRegionCheck);
 WUPS_MUST_REPLACE(CCRSysDRCFWUpdate, WUPS_LOADER_LIBRARY_NN_CCR, CCRSysDRCFWUpdate);
