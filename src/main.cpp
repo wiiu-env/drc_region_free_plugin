@@ -10,7 +10,10 @@ DECL_FUNCTION(uint32_t, CCRSysDRCFWUpdate, uint32_t u1) {
     return 0;
 }
 
-DECL_FUNCTION(uint32_t, CCRSysNeedsDRCFWUpdate, uint32_t u1, uint32_t u2) {
+DECL_FUNCTION(uint32_t, CCRSysNeedsDRCFWUpdate, uint32_t u1, uint32_t *needsUpdateOut) {
+    if (needsUpdateOut) {
+        *needsUpdateOut = false;
+    }
     return 0;
 }
 
