@@ -2,7 +2,7 @@
 
 WUPS_PLUGIN_NAME("drc_region_free_plugin");
 WUPS_PLUGIN_DESCRIPTION("Allows the usage of gamepads from every region");
-WUPS_PLUGIN_VERSION("0.1");
+WUPS_PLUGIN_VERSION("0.2");
 WUPS_PLUGIN_AUTHOR("Maschell");
 WUPS_PLUGIN_LICENSE("GPL");
 
