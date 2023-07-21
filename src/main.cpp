@@ -1,8 +1,12 @@
+#include "version.h"
 #include <wups.h>
+
+#define PLUGIN_VERSION      "v0.2.1"
+#define PLUGIN_VERSION_FULL PLUGIN_VERSION PLUGIN_VERSION_EXTRA
 
 WUPS_PLUGIN_NAME("drc_region_free_plugin");
 WUPS_PLUGIN_DESCRIPTION("Allows the usage of gamepads from every region");
-WUPS_PLUGIN_VERSION("0.2.1");
+WUPS_PLUGIN_VERSION(PLUGIN_VERSION_FULL);
 WUPS_PLUGIN_AUTHOR("Maschell");
 WUPS_PLUGIN_LICENSE("GPL");
 
