@@ -1,7 +1,7 @@
 #include "version.h"
 #include <wups.h>
 
-#define PLUGIN_VERSION      "v0.2.1"
+#define PLUGIN_VERSION      "v0.2.2"
 #define PLUGIN_VERSION_FULL PLUGIN_VERSION PLUGIN_VERSION_EXTRA
 
 WUPS_PLUGIN_NAME("DRC Region Free Plugin");
