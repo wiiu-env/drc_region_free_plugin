@@ -2,7 +2,7 @@
 
 # DRC Region Free Plugin
 
-This plugin allows you to use a gamepad from any region.
+This plugin allows you to use a Wii U GamePad from any region.
 
 ## Usage
 (`[ENVIRONMENT]` is a placeholder for the actual environment name.)
